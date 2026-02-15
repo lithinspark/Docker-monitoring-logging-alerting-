@@ -124,4 +124,5 @@ Check them [here](https://github.com/uschtwill/monitoring-metrics-descriptions).
 
 **Bad umask:** If your umask is bad, and not for example 0022, it could create files/folder with low permissions. Some containers do not start up when that is the case, e.g. Kibana can't read the configd. Setting this umask before downloading the git repo fixes this issue. _(pointed out by @riemers)_
 #   D o c k e r - m o n i t o r i n g - l o g g i n g - a l e r t i n g -  
+ #   D o c k e r - m o n i t o r i n g - l o g g i n g - a l e r t i n g -  
  
